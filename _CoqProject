@@ -7,3 +7,5 @@ revert.v
 specialize.v
 subst.v
 symmetry.v
+auto.v
+exact.v
