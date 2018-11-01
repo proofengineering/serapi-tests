@@ -1,0 +1,9 @@
+clear.v
+eauto.v
+exists.v
+firstorder.v
+intros.v
+revert.v
+specialize.v
+subst.v
+symmetry.v
