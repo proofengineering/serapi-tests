@@ -4,4 +4,4 @@ sercomp: all
 	   sercomp $$f | grep XXX;\
 	 done
 
-.PHONE: sercomp
+.PHONY: sercomp
