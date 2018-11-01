@@ -8,4 +8,7 @@ clean: Makefile.coq
 	$(MAKE) -f Makefile.coq cleanall
 	rm -f Makefile.coq
 
-.PHONY: default clean
+sercomp: Makefile.coq
+	$(MAKE) -f Makefile.coq sercomp
+
+.PHONY: default clean sercomp

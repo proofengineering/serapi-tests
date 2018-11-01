@@ -1,0 +1,7 @@
+sercomp: all
+	 for f in $(VFILES); do\
+	   echo PROCESSING "$$f";\
+	   sercomp $$f | grep XXX;\
+	 done
+
+.PHONE: sercomp
