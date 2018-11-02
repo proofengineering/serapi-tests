@@ -1,7 +1,7 @@
 sercomp: all
 	 for f in $(VFILES); do\
 	   echo PROCESSING "$$f";\
-	   sercomp $$f | grep XXX;\
+	   sercomp $$f | grep XXX || true;\
 	 done
 
 .PHONY: sercomp
