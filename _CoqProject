@@ -9,3 +9,4 @@ subst.v
 symmetry.v
 auto.v
 exact.v
+evar.v
