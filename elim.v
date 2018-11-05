@@ -49,8 +49,7 @@ elim => //=.
 move => t1 IHt1 t2 IHt2 Hc.
 have H1: complete t1 by inversion Hc.
 have H2: complete t2 by inversion Hc.
-assert (H3: (height t1 = height t2)).
-  inversion Hc; auto.
+have H3: (height t1 = height t2) by inversion Hc; auto.
 apply IHt1 in H1.
 apply IHt2 in H2.
 have H6: (1 >= 0) by intuition.
