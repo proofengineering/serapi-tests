@@ -11,3 +11,4 @@ auto.v
 exact.v
 evar.v
 elim.v
+replace.v
